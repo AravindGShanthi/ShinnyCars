@@ -1,0 +1,526 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin:0;
+  padding:0;
+}
+
+body {
+  margin:0;
+  padding:0;
+  font-family: 'Bebas Neue', cursive;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color:#336d88;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding:0;
+  margin:0;
+}
+
+li {
+  padding: 0 5px;
+}
+
+#title {
+  margin:0;
+  padding:0;
+  /* height: 100vh; */
+}
+/* Section title */
+.section-title {
+  background-color: #ffcd3c;
+  padding-bottom: 100px;
+}
+
+/* Section A */
+.section-title .section-a h3 {
+  margin:0;
+  padding: 10px 0 10px 82px;
+  font-family: 'Bungee Inline', cursive;
+  color:#393e46;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+
+/* Section B */
+.section-title .section-b {
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 30px 0;
+}
+
+.section-title .section-b a {
+  font-family: "Roboto", sans-serif;
+}
+
+.section-title .section-b h1 {
+  margin: 0;
+  font-size: 110px;
+  padding: 2px 0;
+  line-height: 1.1  ;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.section-title .section-b p {
+  margin:0;
+  padding: 7px 0;
+}
+
+.section-cars {
+  position: relative;
+}
+
+.section-cars .section-white-space {
+  /* position: absolute; */
+  bottom: 0px;
+  left:0px;
+  width: 100%;
+  height: 200px;
+  background-color: #fff;
+}
+
+.section-cars .car-left {
+  position: absolute;
+  width: 34.4vw;
+  bottom: 150px;
+  left: -6.5%;
+}
+
+.section-cars .car-right {
+  position: absolute;
+  width:43.8vw;
+  bottom: 135px;
+  left: 23%;
+}
+
+.section-cars .car-front {
+  position: absolute;
+  width: 45.7vw;
+  bottom: 110px;
+  left: 6%;
+}
+
+.section-title-app {
+  position: absolute;
+  right: 8%;
+  top: 80px;
+  width: 18vw;
+  font-size: 0;
+  filter: drop-shadow(rgba(0,0,0,0.4) -20px 20px 25px);
+  border-radius: 35px;
+}
+
+.section-title-app img {
+  width:100%;
+}
+
+
+/* //Section select */
+#select {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  padding: 6vw 5% 0px;
+  color: black;
+}
+
+#select .section-left {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 70vh;
+  width: 30vw;
+  min-height: 40vh;
+  padding: 30px;
+  background-color:#ffcd3c;
+}
+
+#select .section-left-title {
+  margin-top: 15%;
+  margin-left: 20%;
+  padding:0;
+}
+
+#select .section-left-title h2 {
+  font-size: 55px;
+  margin:0;
+  padding:0;
+}
+
+#select .section-left-title p {
+  font-size: 10px;
+  color:#336d88;
+  margin:0;
+  padding:0;
+}
+
+#select .select-table {
+  width: 43%;
+  margin-top: 13%;
+  margin-left: 20%;
+}
+
+span {
+  position: relative;
+  top:-0.3vw;
+  left: 0.6vw;
+  margin-right: 10px;
+}
+
+tr {
+  height: 3vw;
+}
+
+td {
+  text-align: left;
+  vertical-align: center;
+  font-size: 0.7vw;
+}
+
+td img {
+  width: 1.42vw;
+}
+
+td h4 {
+  font-size: 2.2vw;
+  font-weight: 300;
+  padding-left: 5px;
+  margin:0;
+}
+
+#select .section-left .section-left-whitespace{
+  display: relative;
+  bottom: 0;
+  right:0;
+  width: 30vw;
+  height: 40vh;
+}
+
+#select .section-left .section-left-whitespace .porsche {
+  display: absolute;
+  left: 50%;
+  width: 40vw;
+}
+
+#select .section-left .arrow {
+  width: 40px;
+  height: 10px;
+}
+
+#select .section-right {
+  padding-left: 10vw;
+  margin-top: 10vh;
+}
+
+#select .section-right h1 {
+  font-size: 70px;
+  width: 90%;
+  color: #393e46;
+  font-weight: 400;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+#select .section-right p {
+  font-family: "Roboto", sans-serif;
+  width: 75%;
+  font-size: 12px;
+  line-height: 2;
+}
+
+
+/* Delivery section */
+
+#delivery {
+  color: black;
+  height: 100vh;
+  padding: 6vw 5% 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+#delivery .section-text {
+  margin-top: 10%;
+  /* width: 30vw; */
+}
+#delivery .section-text h1{
+  font-size: 70px;
+  font-weight: 400;
+  color: #393e46;
+  width: 70%;
+  margin:0;
+  padding:0;
+  line-height: 1;
+}
+
+#delivery .section-text p {
+  font-family: "Roboto", sans-serif;
+  width: 70%;
+  font-size: 12px;
+  line-height: 2;
+}
+
+#delivery .section-images{
+  position: relative;
+}
+
+.images-image {
+  position: relative;
+  width: 100%;
+}
+
+
+#delivery img {
+  margin-top: 8%;
+  width: 100%;
+}
+
+#delivery .porshe-right-image {
+  position:absolute;
+  width: 30vw;
+  bottom:-9%;
+  left:-20%;
+}
+
+#delivery .map-app {
+  width: 35vh;
+  position: absolute;
+  top:-15%;
+  right:15%;
+}
+
+
+/* Application section */
+
+#application {
+  position: relative;
+}
+
+.total {
+  display:flex;
+  color: black;
+  flex-direction: row;
+  padding: 6vw 5% 0px;
+  height: 100vh;
+}
+
+#application .images-s {
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffcd3c;
+}
+
+#application .image-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#application .image-area .porsche-front {
+  width: 25vw;
+}
+
+#application .app-launch {
+  position: absolute;
+      left: 20%;
+      top: 15%;
+      width: 35vh;
+      font-size: 0px;
+      /* transform: translate(40%, -50%); */
+      filter: drop-shadow(rgba(0, 0, 0, 0.2) 20px 20px 25px);
+      border-radius: 35px;
+}
+
+#application .app-launch img {
+  width: 100%;
+}
+
+#application .text-area {
+  margin-left: 15vw;
+  margin-top: 20vh;
+}
+
+#application .text-area h1{
+  font-size: 70px;
+  font-weight: 400;
+  color: #393e46;
+  width: 100%;
+  margin:0;
+  padding:0;
+  line-height: 1;
+}
+
+#application .text-area p {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  font-size: 12px;
+  line-height: 2;
+}
+
+/* Feature section */
+
+#feature {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  height: 70vh;
+  overflow: hidden;
+}
+
+#feature .sections {
+  background-color: #f4f4f4;
+  width: 28.3vw;
+  height: 28.3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+#feature .sections h1{
+  font-size: 27px;
+  font-weight: 400;
+  color: #393e46;
+  width: 80%;
+  margin:0;
+  padding:0;
+  padding-top: 20px;
+  line-height: 1;
+}
+
+#feature .sections p {
+  font-family: "Roboto", sans-serif;
+  width: 80%;
+  font-size: 12px;
+  line-height: 2;
+}
+
+#feature .sections img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Reviews section */
+#reviews {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  padding: 6vw 5% 0px;
+  height: 100vh;
+}
+
+#reviews .image-section {
+  background-color: #ffcd3c;
+  position: relative;
+  width: 40vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#reviews .guy {
+  width: 70%;
+}
+#reviews .car-white {
+  position: absolute;
+  width:50vw;
+  bottom: -15%;
+  left: 30%;
+}
+
+
+#reviews .text-section {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+#reviews .text-section h1 {
+  font-size: 70px;
+  font-weight: 400;
+  color: #393e46;
+  width: 90%;
+  margin:0;
+  padding:0;
+  line-height: 1;
+}
+
+#reviews .text-section p {
+  font-family: "Roboto", sans-serif;
+  width: 90%;
+  font-size: 12px;
+  line-height: 2;
+  padding: 10px 0;
+}
+
+#reviews .text-section .last-p {
+  font-family: "Roboto", sans-serif;
+  width: 90%;
+  font-size: 10px;
+  line-height: 2;
+}
+
+#reviews hr {
+  /* border-style: solid; */
+  border: 1px solid;
+  border-color: #f4f4f4;
+}
+
+
+/* Footer section */
+
+#footer {
+  padding: 6vw 5% 5%;
+}
+
+#footer .section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#footer .section-b {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#footer .section h3 {
+  margin:0;
+  padding: 0;
+  font-family: 'Bungee Inline', cursive;
+  color:#393e46;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+#footer hr {
+  border: 1px solid;
+  border-color: #f4f4f4;
+}
